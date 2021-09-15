@@ -1,0 +1,63 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.intro-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.intro-container > .description-text{
+    font-size: 2rem;
+    color: rgb(100, 100, 100);
+    padding: 5% 10%;
+}
+
+.intro-container > .description-text > .em-text{
+    color: rgb(70, 70, 70);
+    font-size: 2.125rem;
+}
+
+.intro-container > .description-text > .contact-us{
+    color: rgb(122, 111, 111);
+    font-size: 1rem;
+    
+}
+
+.contact-us > a{
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+} 
+
+.footer{
+    background-color: grey;
+    height: 5vh;
+    display: flex;
+    padding-top: 0.5rem;
+    justify-content: center;
+    text-align: center;
+    color: rgb(30, 30, 30);
+    width: 100%;
+}
