@@ -57,8 +57,6 @@ body{
     background-color: grey;
     height: 5vh;
     padding-top: 0.5rem;
-    justify-content: center;
     text-align: center;
     color: rgb(30, 30, 30);
-    width: 100%;
 }
