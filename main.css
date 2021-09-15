@@ -8,31 +8,33 @@ body{
 .main-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
     width: 100%;
     height: 100%;
 }
 
 .logo-container{
+    display: flex;
     background-color: black;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 .intro-container{
     justify-content: center;
     align-items: center;
-    flex: 1;
-    width: 100%;
+    flex-grow: 1;
+    flex-basis: 100%;
+    flex-wrap: wrap;
 }
 
 .intro-container > .description-text{
     font-size: 2rem;
     color: rgb(100, 100, 100);
     padding: 5% 10%;
-    width: 100%;
-    flex-grow: 1;
 }
 
 .intro-container > .description-text > .em-text{
@@ -54,7 +56,6 @@ body{
 .footer{
     background-color: grey;
     height: 5vh;
-    display: block;
     padding-top: 0.5rem;
     text-align: center;
     color: rgb(30, 30, 30);
