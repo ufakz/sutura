@@ -56,6 +56,7 @@ body{
 .footer{
     background-color: grey;
     height: 5vh;
+    display: block;
     padding-top: 0.5rem;
     text-align: center;
     color: rgb(30, 30, 30);
