@@ -18,14 +18,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex-grow: 1;
 }
 
 .intro-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex-grow: 1;
     
 }
 
