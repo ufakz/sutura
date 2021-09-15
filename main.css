@@ -18,14 +18,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .intro-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    flex: 1;
     
 }
 
@@ -33,6 +33,7 @@ body{
     font-size: 2rem;
     color: rgb(100, 100, 100);
     padding: 5% 10%;
+    flex-grow: 1;
 }
 
 .intro-container > .description-text > .em-text{
