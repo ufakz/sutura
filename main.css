@@ -56,7 +56,6 @@ body{
 .footer{
     background-color: grey;
     height: 5vh;
-    display: flex;
     padding-top: 0.5rem;
     justify-content: center;
     text-align: center;
